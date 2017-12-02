@@ -1,6 +1,6 @@
 # Stock Lightbulb
 
-Set the color of an [LIFX](https://api.developer.lifx.com/) lightbulb from an [IEX](https://iextrading.com/developer/) stock quote. Negative daily changes will be red, while positive ones will be green.
+Set the color of an [LIFX](https://api.developer.lifx.com/) lightbulb from an [IEX](https://iextrading.com/developer/) stock quote. Negative daily changes will turn the bulb red, while positive ones will turn it green.
 
 # Setup
 
