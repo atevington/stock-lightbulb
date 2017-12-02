@@ -12,8 +12,8 @@ const lifxSelector = process.env.LIFX_SELECTOR
 const lifxClient = new lifx(lifxToken)
 
 const apiKeys = (process.env.LOCAL_API_KEYS || "").split(",").filter(apiKey => apiKey.length > 0)
-const maxBrightness = parseFloat(process.env.MAX_BRIGHTNESS || 0.75) // 1-100%
-const maxChange = parseFloat(process.env.MAX_CHANGE || .01) // What % change in a stock (in either direction) produces max brightness
+const maxBrightness = parseFloat(process.env.MAX_BRIGHTNESS || 0.75)
+const maxChange = parseFloat(process.env.MAX_CHANGE || .01)
 const symbol = process.env.SYMBOL || "SPY"
 
 const setLightState = color => (
